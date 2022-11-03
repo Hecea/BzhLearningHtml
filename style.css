@@ -1,14 +1,20 @@
 /* commentaire css */
+
 h1
 {
 	font-style: oblique;
 	text-align: center;
+	opacity:0.5; /*valeur de l opacite entre 0 et 1 */
 }
 
 h1, p
 {
 	color: navy;
 	font-weight: bold;
-	/*font-family: Impact; */
+	/*font-family: Impact; par exemple.
+	@font-face pour unr police personnalisee force le navigateur a telecharger*/
 	border: solid 4px lightblue;
 }
+
+
+/* voir les flottants en css, permet de faire flotter un element autour du texte */
