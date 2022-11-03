@@ -2,8 +2,8 @@
 
 h1, p
 {
-	color: blue;
+	color: navy;
 	font-weight: bold;
 	/*font-family: Impact; */
-	border: solid 4px;
+	border: solid 4px lightblue;
 }
