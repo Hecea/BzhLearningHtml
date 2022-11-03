@@ -1,4 +1,9 @@
 /* commentaire css */
+h1
+{
+	font-style: oblique;
+	text-align: center;
+}
 
 h1, p
 {
