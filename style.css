@@ -42,5 +42,15 @@ p:hover /* quand on pointe sur un paragraphe */
 	color: green;
 }
 
+a:hover
 
+{
+	text-decoration: line-through;
+	color: red;
+}
+
+a:visited
+{
+	color: whitesmoke;
+}
 /* voir les flottants en css, permet de faire flotter un element autour du texte */
