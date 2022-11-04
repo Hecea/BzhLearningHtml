@@ -1,5 +1,9 @@
 /* commentaire css */
 
+body{
+	background-color: lightsalmon;
+}
+
 h1
 {
 	font-style: oblique;
@@ -14,6 +18,28 @@ h1, p
 	/*font-family: Impact; par exemple.
 	@font-face pour unr police personnalisee force le navigateur a telecharger*/
 	border: solid 4px lightblue;
+}
+
+
+/* apparence dynamique  On utilise pour cela les pseudo-formats.
+La pseudo-classe CSS :hover est associée généralement aux pseudo-classes suivantes CSS quand on parle de lien (A) :
+
+    :visited : quand lien a été visité.
+    :active : quandle lien est cliqué.
+    :focus : quand le lien a le focus,
+    :link : lien normal et non visité.
+:hover  permet de changer l'apparence au survol 
+(par exemple : a:hover  pour modifier l'apparence des liens lorsque la souris pointe dessus).
+
+:active  modifie l'apparence des liens au moment du clic, 
+:visited  lorsqu'un lien a déjà été visité.
+:focus  permet de modifier l'apparence d'un élément sélectionné
+
+*/
+
+p:hover /* quand on pointe sur un paragraphe */
+{
+	color: green;
 }
 
 
