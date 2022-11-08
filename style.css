@@ -1,7 +1,7 @@
 /* commentaire css */
 
 
-/* adatation aux ecrans media queries
+/* adaptation aux ecrans media queries
 dans ce projet elles sont incorporees danx index.html
 @media screen and (max-width: 1280px)
 { REDIGER LES PROPRIETES CSS ICI
@@ -42,7 +42,7 @@ p {
 	margin: 100px; /* marge exterieure */
 	padding: 50px; /*marges interieure */
 	text-align: center;
-	/*overflow: visible; /*texte trop lons depassee */
+	/*overflow: visible; /*texte trop long depassee */
 	overflow: hidden; /* texte trop long coupe */ 
 	*?
 	overflow: scroll; /* ajout de barre de defilement */
