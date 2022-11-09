@@ -1,13 +1,23 @@
 /* commentaire css */
 
 
-/* adaptation aux ecrans media queries
-dans ce projet elles sont incorporees danx index.html
-@media screen and (max-width: 1280px)
-{ REDIGER LES PROPRIETES CSS ICI
+/* site responsive pc tablette telehone 
+adaptation aux ecrans media queries
+elles peuvent etre incorporees dans index.html ou dans la fichier CSS*/
 
+@media screen and (max-width: 1280px)
+{ 
+	p{
+		color: white;
+		background-color: navy;
+		font-size: 1.2em;
+	
+	}
+	h1{
+		color: white;
+	}
  }
-*/
+
  
 
 body{
