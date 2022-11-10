@@ -8,9 +8,9 @@ elles peuvent etre incorporees dans index.html ou dans la fichier CSS*/
 @media screen and (max-width: 1280px)
 { 
 	p{
-		color: white;
-		background-color: navy;
-		font-size: 1.2em;
+		color: grey;
+		background-color: greenyellow;
+		font-size: auto;
 	
 	}
 	h1{
@@ -61,11 +61,11 @@ p {
 
 
 
-/* apparence dynamique  On utilise pour cela les pseudo-formats.
+/* apparence dynamique -> On utilise pour cela les pseudo-formats.
 La pseudo-classe CSS :hover est associée généralement aux pseudo-classes suivantes CSS quand on parle de lien (A) :
 
-    :visited : quand lien a été visité.
-    :active : quandle lien est cliqué.
+    :visited : quand le lien a été visité.
+    :active : quand le lien est cliqué.
     :focus : quand le lien a le focus,
     :link : lien normal et non visité.
 :hover  permet de changer l'apparence au survol 
