@@ -1,7 +1,7 @@
 /* commentaire css */
 
 
-/* site responsive pc tablette telehone 
+/* site responsive pc tablette telephone 
 adaptation aux ecrans media queries
 elles peuvent etre incorporees dans index.html ou dans la fichier CSS*/
 
@@ -18,7 +18,15 @@ elles peuvent etre incorporees dans index.html ou dans la fichier CSS*/
 	}
  }
 
- 
+ td /* Toutes les cellules car un tableau par defaut n'a pas de bordure */
+ {
+ 	border: 1px solid navy;
+ }
+
+ table
+ {
+ 	border-collapse: collapse;
+ }
 
 body{
 	background-color: lightsalmon;
