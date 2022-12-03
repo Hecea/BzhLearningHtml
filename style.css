@@ -67,7 +67,16 @@ p {
 	overflow-wrap: break-word ; /*coupe le mot */
 }
 
+.container {
+	border: solid 3px white;
+	display: flex;
+	flex-direction: row;
+}
 
+.item {
+	border: 2px solid navy;
+	margin: 11px;
+}
 
 /* apparence dynamique -> On utilise pour cela les pseudo-formats.
 La pseudo-classe CSS :hover est associée généralement aux pseudo-classes suivantes CSS quand on parle de lien (A) :
